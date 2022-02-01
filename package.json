@@ -3,6 +3,7 @@
   "version": "0.0.9",
   "description": "",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "lint": "eslint src --ext .js,.ts",
     "lintfix": "eslint --fix src --ext .js,.ts",
