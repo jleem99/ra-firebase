@@ -11,6 +11,22 @@
     "npm:publish": "./scripts/publish.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {},
+  "peerDependencies": {
+    "firebase": "^7.24.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.10.2",
+    "@typescript-eslint/parser": "^5.10.2",
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "patch-package": "^6.4.7",
+    "prettier": "^2.5.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jleem99/ra-firebase.git"
