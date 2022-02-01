@@ -1,0 +1,29 @@
+{
+  "name": "@jleem99/ra-firebase",
+  "version": "0.0.8",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "eslint src --ext .js,.ts",
+    "lintfix": "eslint --fix src --ext .js,.ts",
+    "build": "rm -rf dist && tsc -p .",
+    "npm:publish": "./scripts/publish.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jleem99/ra-firebase.git"
+  },
+  "author": "JongHan Leem",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jleem99/ra-firebase/issues"
+  },
+  "homepage": "https://github.com/jleem99/ra-firebase#readme",
+  "files": [
+    "dist",
+    "src",
+    "LICENSE",
+    "README.md"
+  ]
+}
